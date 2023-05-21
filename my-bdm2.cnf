@@ -1,0 +1,8 @@
+[mysqld]
+server-id=2
+log-bin=mysql-bin
+binlog-format=row
+#replicate-do-db=bdm1
+enforce-gtid-consistency=ON
+gtid-mode=ON
+transaction-write-set-extraction=XXHASH64
