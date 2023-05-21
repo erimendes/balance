@@ -33,8 +33,8 @@ services:
   bdm2:
     container_name: bdm2
     image: mysql:debian
-#    ports:
-#      - 3306:3306
+    ports:
+      - 3306:3306
     environment:
       - MYSQL_ROOT_PASSWORD=senha1
       - MYSQL_DATABASE=aula_bdm2
