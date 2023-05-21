@@ -67,7 +67,6 @@ services:
     volumes:
       - ./bdm3-data:/var/lib/mysql
   #    - ./my-bdm3.cnf:/etc/mysql/my.cnf
-  #    - ./my-bdm3.cnf:/etc/mysql/my.cnf
 
     networks:
       - blcnetwork
